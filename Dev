@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url('https://images.pexels.com/photos/1906440/pexels-photo-1906440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<header style="text-align: right;"><img>
+    Personal Webpage</header>
+
+<body text="white">
+    <div> <u>
+            <h1 style=" text-align: center;font-size: 70px;font-style: oblique">Welcome</h1>
+        </u>
+
+        <p style="font-size:30px;text-align: center">This webpage is created by Dewashish Gairola in order to test all
+            the tags in html and
+            practice them.</p>
+    </div>
+    <br>
+
+    <div>
+        <b>
+            <h2 style="font-size: 40px;margin-bottom: -20px;">Introduction :</h2>
+        </b>
+        <p style="font-size: 25px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia ex eligendi animi
+            reprehenderit nemo iusto illum officiis tempora fugiat repudiandae deserunt inventore incidunt quae est
+            ipsum molestiae neque iure impedit, accusamus dicta delectus facilis enim soluta? Modi eaque beatae dicta
+            voluptas nihil ea enim. Dignissimos, quidem saepe autem ipsa quisquam excepturi eum facilis neque laborum
+            cumque, et modi itaque at quia libero quas aliquid? Doloribus quae, ut iste quam veniam reiciendis excepturi
+            optio cumque nostrum dolor obcaecati culpa dicta illum ullam necessitatibus facilis magni, asperiores
+            repudiandae exercitationem earum. Labore tenetur corrupti mollitia unde iure eaque enim odit consectetur
+            autem. Nulla.</p>
+        <hr>
+        <i>
+            <blockquote style="font-size: 25px">
+                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam maiores sapiente odit maxime saepe!
+                    Doloremque explicabo voluptate aspernatur corrupti in voluptates illum accusantium, quos vitae enim
+                    exercitationem temporibus voluptatem ratione consequuntur odio.</q>
+            </blockquote>
+        </i>
+        <hr>
+
+    </div>
+    <div>
+        <h3 style="font-size: 40px;">Educational Background :</h3>
+        <details style="font-size: 30px; margin-inline-start:20px">
+            <summary>Class X</summary>
+            <p style="margin-inline-start: 25px;margin-inline-start:20px">I have completed my 10th from MDS,Uttarkashi
+                and scored 82% with ICSE board</p>
+        </details>
+        <details style="font-size: 30px;margin-inline-start:20px">
+            <summary>Class XII</summary>
+            <p style="margin-inline-start: 25px">I have completed my 12th from St. Kabeer Academy and scored 90% with
+                CBSE board</p>
+        </details>
+        <details style="font-size: 30px;margin-inline-start:20px">
+            <summary>UG</summary>
+            <p style="margin-inline-start: 25px">I have completed my B.tech in electrical engineering and scored an
+                overall aggregate of 84%</p>
+        </details>
+        <br>
+
+        <h4 style="font-size: 40px"> Contact Info :</h4>
+
+        <ul style="font-size: 30px">
+            <li>Phone no : 91059xxxxx</li>
+            <li>Gmail : dewashish.dastek@gmail.com</li>
+            <li>Address : Dehradun</li>
+        </ul>
+        <hr>
+
+        <div style="text-align: center;">
+            <h5 style="font-size:40px ; margin-bottom: -5px;">For more info:</h5>
+            <i><q><span style="padding-top: 50px;">Type your query and gmail address , team will contact you
+                        soon!</span></q></i>
+            <form style="font-size:20px ">
+                <p>
+                    <label for="a">Email:</label>
+                    <input id="a" type="text">
+                </p>
+                <p>
+                    <label for="b">Question:</label>
+                    <input id="b" type="text">
+                </p>
+                <button type="submit" style="font-size: 20px; text-align: inherit;">Submit</button>
+            </form>
+        </div>
+    </div>
+    <footer style="text-align: right;">
+        <p>&copy; 2023 My Web Page. All rights reserved.</p>
+    </footer>
+</body>
